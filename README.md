@@ -29,7 +29,7 @@ The code style is defined in the `.editorconfig` file in the root of the repo.
 
 To apply this to your project, do the following:
 
-- Enable symlinks for your current project by running `git config core.symlinks true`.
+- Enable symlinks for your git installation by running `git config core.symlinks true`.
 - Make symlink to `J113D.ProjectConfigurations/.editorconfig` in the root of your project.
 - In cmd you can do `mklink .editorconfig J113D.ProjectConfigurations\.editorconfig` as admin.
 - Or on Linux, you can do `ln -s "J113D.ProjectConfigurations/.editorconfig" ".editorconfig"`.
